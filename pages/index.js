@@ -208,7 +208,7 @@ const GameTheoryGuide = () => {
         )}
       </div>
 
-      <div className="bg-white rounded-xl shadow-lg p-6">
+      <div className="bg-white rounded-xl shadow-lg p-6 mb-6">
         <h2 className="text-xl font-semibold text-gray-800 mb-3">Your Game Theory Toolkit</h2>
         <div className="grid md:grid-cols-3 gap-4 text-sm">
           <div className="bg-gray-50 p-3 rounded-lg">
@@ -223,6 +223,76 @@ const GameTheoryGuide = () => {
             <h3 className="font-semibold mb-1">Think Long-term</h3>
             <p className="text-gray-600">Your reputation and relationships compound over time. Invest in both.</p>
           </div>
+        </div>
+      </div>
+
+      <div className="bg-white rounded-xl shadow-lg p-6">
+        <h2 className="text-xl font-semibold text-gray-800 mb-4">Key Thinkers & Concepts to Explore Further</h2>
+        
+        <div className="space-y-4">
+          <div className="border-l-4 border-blue-500 pl-4">
+            <h3 className="font-semibold text-gray-800">John von Neumann & Oskar Morgenstern</h3>
+            <p className="text-gray-600 text-sm mb-2">Founded modern game theory with "Theory of Games and Economic Behavior" (1944)</p>
+            <p className="text-gray-500 text-xs">Relevant to: Basic strategic thinking, zero-sum vs. non-zero-sum games</p>
+          </div>
+
+          <div className="border-l-4 border-green-500 pl-4">
+            <h3 className="font-semibold text-gray-800">John Nash</h3>
+            <p className="text-gray-600 text-sm mb-2">Nash Equilibrium - situations where no player can improve by changing strategy alone</p>
+            <p className="text-gray-500 text-xs">Relevant to: Understanding when competitive situations stabilize</p>
+          </div>
+
+          <div className="border-l-4 border-purple-500 pl-4">
+            <h3 className="font-semibold text-gray-800">Robert Axelrod</h3>
+            <p className="text-gray-600 text-sm mb-2">"The Evolution of Cooperation" - why cooperation emerges in competitive environments</p>
+            <p className="text-gray-500 text-xs">Relevant to: Networking, team projects, building long-term relationships</p>
+          </div>
+
+          <div className="border-l-4 border-red-500 pl-4">
+            <h3 className="font-semibold text-gray-800">Thomas Schelling</h3>
+            <p className="text-gray-600 text-sm mb-2">Coordination games, focal points, and "The Strategy of Conflict"</p>
+            <p className="text-gray-500 text-xs">Relevant to: College applications, career choices, coordination with peers</p>
+          </div>
+
+          <div className="border-l-4 border-yellow-500 pl-4">
+            <h3 className="font-semibold text-gray-800">Mancur Olson</h3>
+            <p className="text-gray-600 text-sm mb-2">"The Logic of Collective Action" - free rider problem in group settings</p>
+            <p className="text-gray-500 text-xs">Relevant to: Group projects, team dynamics, collective efforts</p>
+          </div>
+        </div>
+
+        <div className="mt-6 bg-gray-50 p-4 rounded-lg">
+          <h3 className="font-semibold text-gray-800 mb-2">Key Concepts Referenced</h3>
+          <div className="grid md:grid-cols-2 gap-3 text-sm">
+            <div>
+              <strong>Nash Equilibrium:</strong> Stable outcome where no one wants to change strategy
+            </div>
+            <div>
+              <strong>Coordination Games:</strong> Players benefit from making the same choice
+            </div>
+            <div>
+              <strong>Free Rider Problem:</strong> Individuals benefit from group efforts without contributing
+            </div>
+            <div>
+              <strong>Information Asymmetry:</strong> When players have different amounts of information
+            </div>
+            <div>
+              <strong>Repeated Games:</strong> When interactions happen multiple times (builds reputation)
+            </div>
+            <div>
+              <strong>Network Effects:</strong> Value increases as more people participate
+            </div>
+          </div>
+        </div>
+
+        <div className="mt-6 bg-blue-50 p-4 rounded-lg">
+          <h3 className="font-semibold text-blue-800 mb-2">Recommended Reading</h3>
+          <ul className="text-blue-700 text-sm space-y-1">
+            <li>• "The Art of Strategy" by Avinash Dixit & Barry Nalebuff (accessible introduction)</li>
+            <li>• "Thinking Strategically" by Avinash Dixit & Barry Nalebuff (practical applications)</li>
+            <li>• "The Evolution of Cooperation" by Robert Axelrod (why cooperation works)</li>
+            <li>• "Micromotives and Macrobehavior" by Thomas Schelling (individual choices, collective outcomes)</li>
+          </ul>
         </div>
       </div>
     </div>
